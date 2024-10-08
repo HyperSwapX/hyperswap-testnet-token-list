@@ -14,7 +14,25 @@ If you want to add a new token to the list, follow these steps:
    ```
 2. Modify the `tokens.json` File
    Open the `tokens.json` file in a text editor and add your token's information. Make sure to follow the existing format in the file.
-3. Submit a Pull Request
+   
+   Here is the Token object model you must use to add your token to the list:
+   ```typescript
+   interface Token {
+     name: string;           // Name of the token
+     decimals: number;       // Number of decimals for the token
+     symbol: string;         // Symbol of the token
+     address: string;        // Contract address on the blockchain
+     chainId: number;        // Chain ID where the token is deployed
+     logoURI: string;        // URL of the token's logo image
+     tags: string[];         // Tags associated with the token
+     website?: string;       // Website of the token/project (optional)
+     telegramUrl?: string;   // Telegram URL for the token/project (optional)
+     discordUrl?: string;    // Discord URL for the token/project (optional)
+   }
+   ```
+   ℹ️ Note: You can add the `websiteUrl`, `telegramUrl`, and `discordUrl` attributes, which are optional but will provide additional information about your project or token.
+
+4. Submit a Pull Request
    After adding your token, commit your changes and push them to your forked repository. Then, create a pull request to the main branch of the `hyperswap-token-list` repository.
    ```bash
    git add tokens.json
