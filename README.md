@@ -18,7 +18,7 @@ If you want to add a new token to the list, follow these steps:
    After adding your token, commit your changes and push them to your forked repository. Then, create a pull request to the main branch of the `hyperswap-token-list` repository.
    ```bash
    git add tokens.json
-   git commit -m "feat: add [Your Token Name] to tokens list"
+   git commit -m "chore: add [Your Token Name] to tokens list"
    git push origin main
    ```
    Go to the repository on GitHub and click on "New Pull Request" to submit your changes.
