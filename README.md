@@ -33,6 +33,10 @@ If you want to add a new token to the list, follow these steps:
    ```
    ℹ️ Note: You can add the `websiteUrl`, `telegramUrl`, and `discordUrl` attributes, which are optional but will provide additional information about your project or token.
 
+   The logo must meet the following criteria:
+   - Size: 125x125
+   - Please upload your image on the PR (any link will not be accepted).
+
    Here is an example with USDC token
    ```json
    
