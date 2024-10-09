@@ -6,8 +6,8 @@ This repository is dedicated to the list of tokens registered on the HyperSwap e
 
 If you want to add a new token to the list, follow these steps:
 
-1. **Clone the Repository**  
-   Clone the repository to your local machine:
+1. **Fork and Clone the Repository**  
+   Fork the repository then Clone it to your local machine:
    ```bash
    git clone https://github.com/HyperSwapX/hyperswap-token-list.git
    cd hyperswap-token-list
