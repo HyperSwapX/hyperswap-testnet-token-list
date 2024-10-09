@@ -25,10 +25,6 @@ If you want to add a new token to the list, follow these steps:
      chainId: number;        // Chain ID where the token is deployed
      logoURI: string;        // URL of the token's logo image
      tags: string[];         // Tags associated with the token
-     website: string;        // Website of the token/project
-     telegramUrl?: string;   // Telegram URL for the token/project (optional)
-     discordUrl?: string;    // Discord URL for the token/project (optional)
-     twitter?: string;       // Twitter (X.com) URL for the token/project (optional)
    }
    ```
    ℹ️ Note: You can add the `websiteUrl`, `telegramUrl`, and `discordUrl` attributes, which are optional but will provide additional information about your project or token.
@@ -49,9 +45,7 @@ If you want to add a new token to the list, follow these steps:
             "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png",
             "tags": [
                 "tokenv1"
-            ],
-             "website": "https://circle.com",
-             "twitter": "https://twitter.com/circle"
+            ]
         },
      
    ```
